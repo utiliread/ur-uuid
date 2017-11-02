@@ -1,12 +1,17 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "moduleResolution": "node",
+  "compilerOptions": {
       "target": "es5",
+      "module": "esnext",
+      "moduleResolution": "node",
       "declaration": true,
-      "outDir": "dist/commonjs"
-    },
-    "include": [
-      "src/**/*.ts"
-    ]
+      "experimentalDecorators": true,
+      "strict": true,
+      "strictNullChecks": false,
+      "baseUrl": "src",
+      "outDir": "dist",
+      "lib": [
+          "es2017",
+          "dom"
+      ]
   }
+}
