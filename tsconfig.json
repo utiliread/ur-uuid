@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-      "target": "es5",
+      "target": "esnext",
       "module": "esnext",
       "moduleResolution": "node",
       "declaration": true,
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
       "strict": true,
-      "strictNullChecks": false,
       "baseUrl": "src",
       "outDir": "dist",
       "lib": [
